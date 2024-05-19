@@ -1,0 +1,24 @@
+:root {
+  --dark: rgb(90, 90, 90);
+  --yellow: rgb(253, 216, 53);
+  --blue: rgb(98, 0, 234);
+/*   
+  --c1: rgb(3, 7, 18);
+  --c2: rgb(163, 230, 53); */
+
+  --c1: rgb(51, 94, 211);
+  --c2: rgb(253, 216, 53);
+  
+  --left-color: var(--c1);
+  --right-color: var(--c2);
+}
+
+body {  
+  background-color: var(--dark);
+  margin: 0px;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,35 @@
+.side {
+    display: grid;
+    height: 100vh;
+    overflow: hidden;
+    place-items: center;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 7vw;
+    font-weight: 800;
+    margin: 0px 10vw;
+    width: 80vw;
+  }
+  
+  .fancy {
+    font-family: "Permanent Marker", cursive;
+    font-size: 1.8em;
+    line-height: 0.6em;
+  }
+  
+  #right-side {
+    background-color: var(--right-color);
+  }
+  
+  #right-side .title {
+    color: var(--dark);
+  }
+  
+  #right-side .fancy {
+    color: white;
+  }
+  
